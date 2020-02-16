@@ -30,7 +30,7 @@ public abstract class AbstractContainer implements Container, Comparable {
 						
 			public void visit(Object obj) {
 				if(comma)
-					buffer.append(" ");
+					buffer.append(", ");
 				buffer.append(obj);
 				comma = true;
 			}
