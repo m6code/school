@@ -46,4 +46,5 @@ public abstract class AbstractContainer implements Container, Comparable {
 	
 	public abstract void purge();
 	public abstract Iterator iterator(); 
+        public abstract void insert(Comparable obj);
 }
