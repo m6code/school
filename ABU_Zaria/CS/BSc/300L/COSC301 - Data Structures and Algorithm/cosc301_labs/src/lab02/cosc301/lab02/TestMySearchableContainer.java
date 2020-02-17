@@ -53,7 +53,7 @@ public class TestMySearchableContainer{
 		}while(number > capacity);
 		
 		// Insert the elements. To be completed by students
-		
+		c.insert(Integer.parseInt(stdin.next()));
 		
 		
 		
@@ -64,7 +64,13 @@ public class TestMySearchableContainer{
 		System.out.print("Enter element to remove: ");
 	   
 	    // to be completed by students
-		
+            int delement = Integer.parseInt(stdin.next());
+            if(c.find(delement) != null){
+                c.withdraw(delement);
+                System.out.println("Successfully deleted: " + delement + "\n");
+            }else{
+                System.out.println("Element not found \n");
+            }
 		
 		
 		
@@ -74,6 +80,12 @@ public class TestMySearchableContainer{
 		System.out.print("Enter an element to search for: ");
 		
 		// to be completed by students
+                int selement = Integer.parseInt(stdin.next());
+                if(c.find(selement) != null){
+                    System.out.println(selement + " Found in array\n");
+                }else{
+                    System.out.println(selement + " not found in array \n");
+                }
 	    
 	    
 	    
@@ -83,7 +95,7 @@ public class TestMySearchableContainer{
 	
 	public static void display(MySearchableContainer c){
 		//to be completed by students
-	
+                System.out.println(c);
 	 	
 	}
 	

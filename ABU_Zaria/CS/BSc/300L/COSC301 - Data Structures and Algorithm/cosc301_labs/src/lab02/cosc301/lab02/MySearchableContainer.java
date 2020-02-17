@@ -30,19 +30,19 @@ public class MySearchableContainer extends MyContainer implements SearchableCont
 	//returns the reference to the target if found, null otherwise 
 	public Comparable find(Comparable target) {
 		// to be implemented by students
-		
-		
-		
-		
-		
+                int index = findIndex(target);
+                if(index != -1){
+                    return array[index];
+                }else{
+                    return null;
+                }
+			
 	}
 	
     //returns true if target is in the container, false otherwise.	
 	public boolean isMember(Comparable target) {
 		// to be implemented by students
-		
-		
-		
+		return findIndex(target) != -1;
 		
 	}
 	
