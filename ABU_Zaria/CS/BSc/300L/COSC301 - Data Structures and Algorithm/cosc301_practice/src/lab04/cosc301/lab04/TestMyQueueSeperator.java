@@ -1,4 +1,4 @@
-package lab04.cosc301.lab04;
+8 9package lab04.cosc301.lab04;
 
 import java.util.Scanner;
 import lab01.cosc301.Iterator;

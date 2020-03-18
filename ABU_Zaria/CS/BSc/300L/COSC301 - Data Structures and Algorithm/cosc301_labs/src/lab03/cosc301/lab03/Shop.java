@@ -1,4 +1,7 @@
 package lab03.cosc301.lab03;
+
+import lab03.cosc301.MySearchableContainer2;
+
 class Shop implements Comparable{
 	private String name;
 	private MySearchableContainer2 itemContainer;
