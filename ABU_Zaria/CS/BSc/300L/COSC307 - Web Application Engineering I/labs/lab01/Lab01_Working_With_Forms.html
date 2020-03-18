@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Working with Form Elements</title>
+	<style>
+		input[type=text], input[type=password]{
+			 
+			margin-right: 8px;
+		}
+		form{
+			border-style: solid;
+			border-width: 1px;
+			border:1px solid;
+			padding: 25px; 
+			width: 50%;
+		}
+		textarea{
+			text-align: center;
+			width: 90%;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Hello</h1>
+	
+		<form action="">
+			<p><label><input type="text" name="name">NAME</label></p>
+			<p><label><input type="password" name="name" value="pass">PASSWORD</label></p>
+			<p>Level:
+				<label > 100<input type="radio" name="level" value="100"/></label>
+				<label >|200<input type="radio" name="level" value="200"/></label>
+				<label >|300<input type="radio" name="level" value="300"/></label>
+				<label >400<input type="radio" name="level" value="400"/></label>
+			</p>
+
+			<p>Course: 
+				<label >COSC<input type="checkbox" name="course" value="100"/></label>
+				<label >PHYS<input type="checkbox" name="course" value="PHYS"/></label>
+				<label >GEOG<input type="checkbox" name="course" value="GEOG"/></label>
+			</p>
+			
+			<p>
+				Faculty: <select name="Faculty" id="">
+					<option value="Sciences">Sciences</option>
+					<option value="Law">Law</option>
+					<option value="Medcine">Medcine</option>
+				</select>
+			</p>
+			<p>
+				<textarea name="saymore" id="" cols="80" rows="4"> Say More!</textarea>
+			</p>
+			<p>
+				<button>Refresh</button> |
+				<button>Clear</button>
+			</p>
+		</form>
+</body>
+</html>
