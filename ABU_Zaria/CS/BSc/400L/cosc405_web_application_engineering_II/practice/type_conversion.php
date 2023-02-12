@@ -1,5 +1,5 @@
 <?php
-    $arr = [0, "false", "true", "cosc405", 3.84, true, "400 Level", 345, -1.7E-4];
+$arr = [0, "false", "true", "cosc405", 3.84, true, "400 Level", 345, -1.7E-4, false, 1, ""];
 
     // foreach( $arrn as $val) {
     //     echo "Element at ${$val} \n";
