@@ -1,5 +1,5 @@
 /**
-* ALGORITHM insertionSort(A[0...n-1]) 
+* ALGORITHM InsertionSort(A[0...n-1]) 
 *   for i <-- 1 to n - 1 do 
 *       v <-- A[i] 
 *       j <-- i - 1
@@ -13,8 +13,8 @@
 
 /**
 * @description sorts an array using insertionSort algorithm 
-* @param{number[]} - an array of integers
-* @return{number[]} - an array of integers sorted in accending order
+* @param{Array} - an array of integers
+* @return{Array} - an array of integers sorted in accending order
 */
 function insertionSort(A) {
     for(let i = 1; i < A.length; i++) {
