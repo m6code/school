@@ -24,6 +24,14 @@
         echo "<br> \n";
     }
 
+// Question 3c again
+    foreach($students as $student) {
+        foreach($student as $stu) {
+            echo $stu . " ";
+        }
+        echo "\n";
+    } 
+
 // Quesition 3d
     $myarr = array("var_dump", "explode", "out", "count", "Math.sqrt");
     
