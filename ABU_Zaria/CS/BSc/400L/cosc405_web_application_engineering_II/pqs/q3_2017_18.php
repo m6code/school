@@ -1,10 +1,10 @@
 <?php
 // Question 3a
     $students = array(
-        ["U06CS1001", "Aliyu", 26, "male", "Kaduna", "Computer Sci.", "100L", 4.31],
-        ["U06CS1002", "Talatu", 30, "female", "Niger", "Law", "300L", 3.05],
-        ["U06CS1003", "Sikirat", 22, "female", "Ibadan", "Accounting", "200L", 2.87],
-        ["U06CS1004", "Chinedu", 39, "male", "Imo", "Pharmacy", "500L", 3.56]
+        array("U06CS1001", "Aliyu", 26, "male", "Kaduna", "Computer Sci.", "100L", 4.31),
+        array("U06CS1002", "Talatu", 30, "female", "Niger", "Law", "300L", 3.05),
+        array("U06CS1003", "Sikirat", 22, "female", "Ibadan", "Accounting", "200L", 2.87),
+        array("U06CS1004", "Chinedu", 39, "male", "Imo", "Pharmacy", "500L", 3.56)
         
     );
 
